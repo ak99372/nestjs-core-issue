@@ -10,8 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^9.1.4",
-    "@nestjs/core": "^9.1.4",
     "@nestjs/platform-express": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/core": "^9.1.4"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
