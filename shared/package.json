@@ -1,0 +1,19 @@
+{
+  "name": "shared-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.1.4",
+    "@nestjs/core": "^9.1.4",
+    "@nestjs/platform-express": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
